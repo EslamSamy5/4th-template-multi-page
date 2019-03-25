@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.header
+{
+	width:auto;
+	height: auto;
+	background:#fff;
+}
+
+
+/* first border */
+
+.logo
+{
+	background:url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	width:400px;
+	height: 300px;
+	margin:100px auto;
+	padding: 0;
+}
+
+.nav
+{
+	position: absolute;
+	
+}
+.nov ul
+{
+	list-style-type: none;margin-top: -250px;
+	padding-left: 375px;
+}
+
+.nov ul li
+{
+	display: inline-block;
+	font-family: 'Quantico', sans-serif;
+	
+	
+}
+
+.nov ul li a
+{
+	text-decoration: none;
+	padding: 20px;
+	cursor: pointer;
+	font-size:20px;
+	text-transform: uppercase;
+	color:#000;
+	
+}
+
+#difrint a
+{
+	color:#1caaa0
+}
+
+.nov ul li a:hover
+{
+	color:#1caaa0
+}
+
+.clear
+{
+	clear: both;
+}
+
+/* secand border */
+
+.secandborder
+{
+	background: url(../images/the-beacon.jpg);
+	width:100%;
+	height: 500px;
+	background-size: cover;
+	margin-top:50px;
+	position: absolute
+}
+
+
+.texter 
+{
+	
+	margin-left: 650px;
+	
+	margin-top:100px;
+	
+}
+.texter h3
+{
+	padding-top: 50px;
+	position: relative
+}
+
+.texter h3:nth-child(1)	
+{
+	
+	border:1px solid #FFF;
+	width:390px;
+	background:#FFF;
+	height: 35px ;
+	font-size:25px;
+	padding: 5px 20px 7px 40px ;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.texter h3:nth-child(2)	
+{
+	
+	border:1px solid #1c1c1b;
+	width:370px;
+	background:#1c1c1b;
+	color:#eee;
+	height: 35px ;
+	font-size:20px;
+	margin-top:20px;
+	padding: 9px 15px 1px 35px ;
+	font-family: 'Philosopher', sans-serif;
+	
+}
+
+.texter h3:nth-child(3)	
+{
+	
+	border:1px solid #1c1c1b;
+	width:420px;
+	background:#1c1c1b;
+	color:#eee;
+	height: 35px ;
+	font-size:20px;
+	margin-top:20px;
+	padding: 10px 15px 1px 35px ;
+	font-family: 'Philosopher', sans-serif;
+	
+}
+
+.texter h3:nth-child(4)	
+{
+	
+	border:1px solid #1c1c1b;
+	width:330px;
+	background:#1c1c1b;
+	color:#eee;
+	height: 35px ;
+	font-size:20px;
+	margin-top:20px;
+	padding: 10px 15px 1px 35px ;
+	font-family: 'Philosopher', sans-serif;
+	
+}
+
+.texter button
+{
+	background-color: #1caaa0;
+	color:#fff;
+	width:200px;
+	height:60px;
+	font-size:22px;
+	
+	
+	text-transform:uppercase;
+	
+	
+	margin-top:20px;
+	border:2px solid #1caaa0;
+}
+
+.thirdborder
+{
+	width:100%;
+	height: 350px;
+	background:#FFF;
+	margin-top:600px;
+}
+
+.thirdborder .imges div:nth-child(1)
+{
+	background: url(../images/the-father.jpg);
+	width:295px;
+	height: 238px;
+	border:2px solid #1c1c1b;
+	background-size: cover;
+	margin-left:200px;
+	opacity: .4
+}
+
+.thirdborder .imges div:nth-child(2)
+{
+	background: url(../images/the-actor.jpg);
+	width:295px;
+	height: 238px;
+	border:2px solid #1c1c1b;
+	background-size:auto;
+	margin-left:600px;
+	margin-top:-242px;
+	opacity: .4
+}
+
+.thirdborder .imges div:nth-child(3)
+{
+	background: url(../images/the-nerd.jpg) ;
+	width:295px;
+	height: 238px;
+	border:2px solid #1c1c1b;
+	background-size:contain;
+	margin-left:1000px;
+	margin-top:-241px;
+	opacity: .4
+}
+
+.thirdborder .imges div:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.thirdborder .imges span:nth-of-type(1)
+{
+	font-size:25px;
+	font-family: 'Kaushan Script', cursive;
+	margin-left:280px;
+}
+
+.thirdborder .imges span:nth-of-type(2)
+{
+	font-size:25px;
+	font-family: 'Kaushan Script', cursive;
+	margin-left:320px;
+}
+
+.thirdborder .imges span:nth-of-type(3)
+{
+	font-size:25px;
+	font-family: 'Kaushan Script', cursive;
+	margin-left:320px;
+}
+
+
+.footer
+{
+	width:100%;
+	height: 150px;
+	background:#484848;
+	position: absolute;
+}
+
+.footer p:nth-child(1)
+{
+	margin-left:50px;
+	margin-top:50px;
+	padding: 0;
+	color:#FFF;
+}
+
+.footer p:nth-child(2)
+{
+	margin-left:50px;
+	margin-top:5px;
+	padding: 0;
+	color:#FFF;
+}
+
+.footer ul
+{
+	float:right;
+	display: block;
+	text-align: center;
+	padding:0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.footer ul li 
+{
+	display: block;
+	float:left;
+	padding:10px;
+	margin-top:-60px;
+	margin-right: 40px;
+	width:44px;
+	height: 44px;
+	
+}
+
+.footer ul li a
+{
+	text-decoration: none;
+	color:#FFF;
+}
+
+.footer object{
+	width:30px;
+	height:30px;
+}
+
+.fa-facebook-square:hover
+{
+	background: #000;
+	color:#fff;
+	border:1px  hidden #000;
+	border-radius: 10px;
+	width: 46px;
+	height: 46px;
+	
+}
+
+.fa-google-plus-square:hover
+{
+	background: #000;
+	color:#fff;
+	border:1px  hidden #000;
+	border-radius: 10px;
+	width: 46px;
+	height: 46px;
+	
+}
+
+.fa-linkedin-square:hover
+{
+	background: #000;
+	color:#fff;
+	border:1px  hidden #000;
+	border-radius: 10px;
+	width: 46px;
+	height: 46px;
+	
+}
+
+.fa-twitter-square:hover
+{
+	background: #000;
+	color:#fff;
+	border:1px  hidden #000;
+	border-radius: 10px;
+	width: 46px;
+	height: 46px;
+	
+}
